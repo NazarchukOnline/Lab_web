@@ -1,0 +1,68 @@
+.row{
+    display: flex;
+    gap: 40px;
+}
+.blok{
+    width: 100%;
+}
+
+.blok input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    border: 1px solid rgba(17, 34, 68, 0.5);
+    border-radius: 5px;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #112244;
+}
+
+.blok-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#cheked{
+    width: 17px;
+    height: 17px;
+
+    border: 1px solid #624C90;
+    border-radius: 3px;
+}
+
+.blok-reg label{
+    display: flex;
+    width: fit-content;
+    background: #CCCCCC;
+    border-radius: 7px;
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+#reg{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    width: fit-content;
+    border-radius: 7px;
+    padding: 20px 43px;
+    gap: 10px;
+}
+
+.open{
+    display: block;
+}
+
+.cl{
+    display: none;
+}
+
+.error-p, .error-log, .error-ver{
+    display: flex;
+    padding: 4px 0px 0px 24px;
+    gap: 2px;
+}
