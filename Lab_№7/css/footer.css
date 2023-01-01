@@ -1,0 +1,25 @@
+footer{
+    padding: 0 60px 61px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-foot{
+    display: flex;
+    gap: 40px;
+}
+
+.link-nav{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #366AF3;
+}
+
+footer span{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #999999;
+}
