@@ -1,0 +1,32 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background: #F3F3F3;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 60px;
+    background: #624C91;
+}
+
+.icon-menu{
+    display: none;
+}
+
+.button-link{
+    display: flex;
+    gap: 28px;
+}
+
+.button-link a{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    color: #FFFFFF;
+}
