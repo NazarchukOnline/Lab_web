@@ -1,0 +1,78 @@
+img{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 12px;
+}
+
+.log{
+    width: 100%;
+    height: fit-content;
+    background-color: #e6e6e6;
+    padding: 20px 0;
+    text-align: center;
+}
+.logotip{
+    width: 100%;    
+    text-decoration: none;
+    font-size: 28px;
+    font-weight:bold;    
+    color: #000;
+}
+
+.perehod{
+    margin: 10px 0 40px 0;
+}
+
+.perehod a{
+    color: #000;
+}
+
+.last{
+    margin-left: 20px;
+}
+
+main span{
+    font-size: 28px;
+    font-weight:bold;
+}
+
+.main-catalog{
+    margin-top: 20px;
+}
+
+.iteam{
+    margin-bottom: 40px;
+}
+
+.first-text{
+    margin: 5px 0 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.match-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reset-color{
+    width: 100%;
+    height: fit-content;
+}
+
+.reset-color button{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;    
+    color: #000;
+    border: none;
+    background-color: #e6e6e6;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
