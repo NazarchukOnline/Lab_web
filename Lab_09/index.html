@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Последние публикации
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <?
+        include ("./php/controller.php")
+    ?>
+
+    <div id="app">
+    <header class="header">
+      <div class="header-main">
+        <div class="header-main-content">
+
+          <div class="header-main-content-logo">
+            <a href="./" class="header-main-content-logo"><img src="./img/BlogLogo.png" alt=""></a>
+          </div>
+
+          <div class="header-main-content-nav">
+
+            <div class="header-main-content-nav-el">
+              <img src="./img/Profile.png" alt="">
+            </div>
+
+            <div class="header-main-content-nav-el">
+              <a href="">Войти</a>
+            </div>
+
+            <div class="header-main-content-nav-el">
+              <a href="">Зарегестрироваться</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <main class="main">
+
+      <h1>Последние публикации</h1>
+
+      <div class="content">     
+        <div class="post-grid">
+          <div class="post-row">
+
+            <? require './php/view/post-view.php'?>
+
+          </div>
+
+          <div class="upload">
+            <span>Загрузить еще 6</span>
+          </div>
+
+        </div>
+
+        <div class="category">
+          <h3>
+            Рубрики
+          </h3>       
+          <? require './php/view/category-view.php'?>
+        </div>
+   
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-main-content">
+          <div class="footer-main-content-nav">
+            <a href="">Об авторе</a>
+            <a href="">Технологии</a>
+          </div>
+          <div class="footer-main-content-label">
+            <label for="">© blog, 2022</label>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  </body>
+
+</html>
